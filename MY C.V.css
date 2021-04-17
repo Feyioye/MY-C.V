@@ -1,0 +1,134 @@
+#big-wrapper{
+	width: 90vw;
+	margin: auto;
+	border: 0px solid grey;
+	padding: 40px;
+	box-shadow: 9px 9px 9px 7px grey;
+	
+}
+.heading{
+	display: flex;
+	padding-top: 50px;
+}
+#name{
+	display: inline-block;
+	background-color: white;
+	width: 30vw;
+	height:  200px;
+	color: #4682B4;
+	font-size: 70px;
+	font-weight: 70px;
+
+}
+#contact-info{
+	display: inline-block;
+	background-color: white;
+	width: 90vw;
+	height:  200px;
+	text-align: right;
+
+}
+.section{
+	display: block;
+	
+	border-top: 2px solid grey;
+}
+h3{
+	color: #4682B4;
+
+}
+span{
+	text-decoration: underline;
+}
+h6{
+	font-size: 20px;
+}
+#summary{
+	border: none;
+	padding-bottom: 20px;
+	margin-bottom: 20px;}
+#skills{
+	border-top: 2px solid grey;
+	
+}
+img{
+	width:15px;
+	height: 15px;
+	position: relative;
+    top: 3px;
+}
+#mail{
+	width: 30px;
+	height: 30px;
+	padding:0px;
+	position: relative;
+    top: 12px;
+}
+@media screen and (max-width: 768px){
+	#big-wrapper{
+	width: 300px;
+	margin: auto
+	
+	border: 0px solid grey;
+	padding: 20px;
+	box-shadow: 7px 7px 7px 5px grey;
+	
+}
+.heading{
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	height: 120px;
+	
+}
+#name{
+	display: inline-block;
+	background-color: white;
+
+	
+	
+	color: #4682B4;
+	font-size: 29px;
+	font-weight: 30px;
+	padding-bottom:  0px;
+
+}
+#contact-info{
+	display: inline-block;
+	background-color: white;
+
+	float: right;
+	font-size: 10px;
+
+}#summary{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	height: 70px;
+	
+	
+font-size: 10px;
+}
+#skills{
+	border-top: 2px solid grey;
+	font-size: 10px;
+	
+}
+img{
+	width:8px;
+	height: 8px;
+	position: relative;
+    top: 1px;
+}
+#mail{
+	width: 20px;
+	height: 20px;
+	padding:0px;
+	position: relative;
+    top: 8px;
+}
+.section{
+	display: block;
+	font-size: 10px;
+	border-top: 2px solid grey;
+}
+}
